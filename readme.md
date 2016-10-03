@@ -1,15 +1,14 @@
 # Kaggle BNP Paribas Cardif
-[https://www.kaggle.com/c/bnp-paribas-cardif-claims-management][1]
+Data and description: [https://www.kaggle.com/c/bnp-paribas-cardif-claims-management][1]
 
 Objective: Accelerate claims management process
-
-Data: ~230000 rows, 132 features
 
 Position: 490/2926 (top 17%)
 
 ## Methods
 
 - Tree ensembles (R)
+	* Fork of [https://www.kaggle.com/justfor/bnp-paribas-cardif-claims-management/xgb-cross-val-and-feat-select/code][2]
 	* Feature engineering:
 		* Counting missing data, error codes
 	* Preprocessing:
@@ -20,8 +19,7 @@ Position: 490/2926 (top 17%)
 	* Model training:
 		* Boosted tree ensemble (XGBoost)
 		* Extra trees ensemble (extraTrees)
-	* Fork of [https://www.kaggle.com/justfor/bnp-paribas-cardif-claims-management/xgb-cross-val-and-feat-select/code][2]
-
+	
 	 
 [1]: https://www.kaggle.com/c/bnp-paribas-cardif-claims-management
 [2]: https://www.kaggle.com/justfor/bnp-paribas-cardif-claims-management/xgb-cross-val-and-feat-select/code
